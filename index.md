@@ -5,47 +5,40 @@ layout: page
 
 <img src="https://github.com/Philharmy-Wang/Philharmy-Wang.github.io/assets/51520993/29576fc8-f082-49b1-ac61-98ef2d2aed5c" class="floatpic" width="360" height="480">
 
-
-
-
-
 Here is **Guanbo Wang (王冠博)**.
 
 I am a Ph.D. candidate in the Information and Communication Engineering program at the School of Information, Yunnan University, class of 2019. I am expected to graduate in 2025, with my main research areas being computer vision, multimodal detection, and remote sensing forest fire detection. My research is supervised by Professor Haiyan Li.
 
 If you are interested in any aspect of my work, I would be delighted to chat and collaborate. Please feel free to email me at [wgb1018@gmail.com]().
 
-## Academic Background
+## Education Background
 
-- **Sep 2024 - Future：**Cambridge University (Incoming EE MPhil, supervised by [Prof. Ozgur B. Akan](https://ioe.eng.cam.ac.uk/directory/akan))
-- **Sep 2020 - June 2024:** Maynooth University (BSc, EECS)
-- **Sep 2020 - June 2024:** Fuzhou University (BEng, EECS)
-- **June 2022 - Nov 2022:** Cambridge University (Internship)
+* **Sep 2022 - Jun 2025** : Yunnan University, Ph.D. in Information and Communication Engineering at the School of Information (Master-Ph.D. combined program)
+* **Sep 2019 - Jun 2022** : Yunnan University, Master's degree in Communication and Information Systems at the School of Information
+* **Sep 2013 - Jul 2017** : Xuchang University, Bachelor's degree in Communication Engineering
+* **Sep 2014 - Jul 2017** : Xuchang University, Bachelor's degree in Business Administration (Minor)
 
 ---
 
 ## Research Interests
 
-- Internet of Everything
-- Cyber-Physical System
-- Industrial Informatics
-- Applied Machine Learning
-- [My latest research proposal (Dec 2023)](https://caihanlin.com/file/proposal-2023.pdf)🔗
+* Computer Vision
+* Multimodal Object Detection
+* Remote Sensing Forest Fire Detection
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the **Machine Learning** and its applications in **Industrial IoT**. In a word, advanced technologies like ML and IoT positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+Since my master's studies, I have been dedicated to research in object detection. Given the frequent forest fires in Yunnan in recent years, my research has gradually focused on remote sensing forest fire detection.
+
+My research aims to develop advanced computer vision and multimodal detection techniques to improve the accuracy and speed of detecting forest fires. The significance of this research lies in its potential to provide timely and precise monitoring, which is crucial for preventing widespread forest fire damage and protecting both ecological environments and human lives.
 
 ---
 
 ## News and Updates
 
-- **May 2024：**My undergraduate thesis won the Best Project Award (Top 1/300) 🎉
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **March 2024：**Very excited to get a MPhil offer from Engineering department at Cambridge University!
-- **Dec 2023：**Very excited to be selected as [AAAI-24 UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
-- **Dec 2023：**Got a MSc offer from the physics department of Imperial College London.
-- **Aug 2023：**Happy to be awarded the FEPG Scholarship.
-- **May 2023：**Happy to be awarded the XiamenAir Scholarship.
-- **May 2023：**Collected the Finalist Award in MCM 2023 (Top 1%).
-- **Jun 2022：**Started research programme at [Cambridge AI Group](https://www.cl.cam.ac.uk/research/ai/), advised by Prof. Pietro Liò.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thrilled to be an AAAI-UC Scholar at <a href="https://twitter.com/hashtag/AAAI24?src=hash&ref_src=twsrc%5Etfw">#AAAI24</a>, thanks to <a href="https://twitter.com/hashtag/AAAI?src=hash&ref_src=twsrc%5Etfw">#AAAI</a> & <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> for the sponsorship. Grateful for the knowledge gained and new friendships formed.<br><br>Wonderful trip in Vancouver. Looking forward to staying connected with all.<a href="https://twitter.com/hashtag/AAAI24?src=hash&ref_src=twsrc%5Etfw">#AAAI24</a> <a href="https://twitter.com/hashtag/Vancouver?src=hash&ref_src=twsrc%5Etfw">#Vancouver</a> <a href="https://twitter.com/hashtag/GoogleExploreCSR?src=hash&ref_src=twsrc%5Etfw">#GoogleExploreCSR</a> <a href="https://t.co/wUQUp8XlSM">pic.twitter.com/wUQUp8XlSM</a></p>— Hanlin CAI (seeking a PhD position 2025) (@lancecai2002) <a href="https://twitter.com/lancecai2002/status/1762210025173344260?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+- **Jun 2024：** My article was accepted by IEEE Transactions on Geoscience and Remote Sensing! 🎉
+- **March2024：** My article was accepted by Expert Systems with Applications!🎉
+- **Jan 2024：** The patent I applied for was approved!
+- **Dec 2023：** I won the second prize in the 2023 Huawei Cup Graduate Student Mathematical Modeling!
+- **Jul 2023：** I won first prize in the 2023 Number Dimension Cup for Graduate Student Mathematical Modeling!
+- **Apr 2023：** My paper was selected as a high-impact paper in the China Knowledge Network's Academic Essentials Database!
+- **Dec 2022：** I received the 2022 Distinguished Open Science Author Award!
+- **Dec 2022：** My paper was accepted into Digital Signal Processing!

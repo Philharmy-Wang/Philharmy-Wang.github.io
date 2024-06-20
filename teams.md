@@ -3,65 +3,31 @@ layout: page
 permalink: /teams/index.html
 title: Teams
 ---
+# Motivation
 
-## Motivation
+On my personal website, I would like to showcase some photos of me with different research groups to highlight my research experience and collaborations.
 
-As a youth from southern Fujian (Hokkien), entrepreneurial spirit runs in my family's and my own bones. From a young age, we were instilled with the belief that one must become their own "boss" and setup their own business. My aspiration is to become a serial entrepreneur.<br>
+## 1. Professor Ding Hongwei's Research Group (September 2019 - June 2022)
 
----
+From September 2019 to June 2022, I pursued a master's degree in Communication and Information Systems at the School of Information, Yunnan University, under the supervision of Professor Ding Hongwei. During this period, my main research focus was on object detection technology. Through participation in various projects, I gained extensive experience and made significant contributions to the field.
 
-## OpenIoT Team
+## 1.1 Our Funding
 
-During undergraduate, my two roommates and I co-founded a tech group called OpenIoT. With an entrepreneurial spirit in technology, we participated in numerous innovation and entrepreneurship competitions. As of 2024, the OpenIoT team has grown to include 28 official members and has accumulated a total of six national-level competition awards and over **$20000 funding**.<br>
+* **National Natural Science Foundation Project** : Research on Fusion-Based Multiple Access Communication Network Theory and Control Protocols (Project No.: 61461053, Funding: 400,000 RMB)
 
-## Team News
+* Research on Key Technologies in Communication and Applications of Artificial Intelligence
+* Yunnan Ding Hongwei Grassroots Expert Workstation
+* Yunnan Zhao Hongzhi Expert Workstation
 
-- **Jan 2024：**Our team won the Finalist Award (Top 3%) in China International College Students’ Innovation Competition.
-- **Sep 2023：**Our work [DefenderIoT](https://fzuiot.site/) has been reported by [Youth of FZU (in Chinese)](https://mp.weixin.qq.com/s/MF2NJQtEHsVwsm8Ym-l7Gg).
-- **Aug 2023：**Our team won the Best Technology Award (Top 1%) in National Youth Science Innovation Project Competition.
-- **June 2023：**Our team won a national undergraduate research training grant (about $3000).
-- **May 2023：**If you are interested in the IoT, robotics, or AIGC, welcome to [join us!](https://fzuiot.site/english/)<br>
+## 1.2 Some Group Photos
 
----
 
-## Our Fundings
+## 2. Professor Li Haiyan's Research Group (September 2022 - December 2025)
 
-- Project: DefenderIoT — Leading the New Generation of Industrial Inspection<br>**Funding $2000** (Grant No. 20230357)<br>China International College Students’ Innovation Competition Award<br>Project Leader & Product Manager (2024)<br><br>
-- Project: Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot<br>**Funding $3000** (Grant No. 202310386056)<br>China National Undergraduate Innovation and Entrepreneurship Training Program<br>Project Leader & Student Investigator (2023-2024)<br><br>
-- Project: Community Monitoring System based on Smart IoT and Inspection Vehicle<br>**Funding $1000** (Grant No. 2023080208)<br>National Youth Science Innovation Project Competition Award<br>Project Leader & Student Investigator (2023)<br><br>
+Since September 2022, I have been pursuing a Ph.D. in Information and Communication Engineering at the School of Information, Yunnan University, under the supervision of Professor Li Haiyan. My research has gradually focused on multimodal detection and remote sensing forest fire detection. Given the frequent forest fires in Yunnan, my research aims to improve the accuracy and speed of forest fire detection using advanced computer vision and multimodal detection techniques, effectively preventing the spread of forest fires and protecting ecological environments and human lives.
 
----
+## 2.1 Our Funding
 
-## Team Members
+* **National Natural Science Foundation Project** : Study on Multimodal Target Monitoring and Tracking Technology Based on Visual Perception and Semantic Cognition at the Yunnan Border, with project numbers 62266049 and 62066047, and a funding amount of 400,000 RMB.
 
-- **Co-founders:** Hanlin Cai, Jiaqi Hu, Zheng Li
-- **Members @2020:** Linshi Li, Yuchen Fang, Shuying Liu, Xiang Fang, Jiankun Li, Xinguo Wang, Miaolan Zhou, Chaoyue Chen
-- **Members @2021:** Wenzhuo Fan, Jiacheng Huang, Xun Sun, Yujie Jiang, Zhongheng Sun, Yuxuan Zheng, Hongming Chen
-- **Members @2022:** Wenjing Chen, Roubing Yao, Yuxin Luo, Han Huang, Yang Lu, Jiali Su, Yanzhuo Gao, Yuzhuo Shi
-- **Members @2023:** [Join us!](https://fzuiot.site/english/)<br>
-
----
-
-## Some Group Photos
-
-> Our group website: [https://fzuiot.site/](https://fzuiot.site/)
-
-<div>
-<img src="https://caihanlin.com/images/teams/teams1.jpg">
-</div>
-<br>
-
-<div>
-<img src="https://caihanlin.com/images/teams/teams2.jpg">
-</div>
-<br>
-
-<div>
-<img src="https://caihanlin.com/images/teams/teams.jpg">
-</div>
-<br>
-
-<div>
-<img src="https://caihanlin.com/images/teams/teams4.jpg">
-</div>
-<br>
+## 2.2 Some Group Photos
