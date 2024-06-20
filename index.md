@@ -3,7 +3,7 @@ layout: page
 ---
 # About Me
 
-`<img src=D:\code\GitHub\Philharmy-Wang.github.io\wangguanbo.jpg" class="floatpic" width="360" height="480">`
+`<img src="D:\code\GitHub\Philharmy-Wang.github.io\wangguanbo.jpg" class="floatpic" width="360" height="480">`
 
 
 
