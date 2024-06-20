@@ -3,6 +3,12 @@ layout: page
 permalink: /publications/index.html
 title: Publications
 ---
+## Projects
+
+* **March 2023 - March 2024** : Research on an Automated Multimodal Forest Fire Detection System Based on Attention Mechanisms Perceptible to Humans
+* **March 2023 - June 2023** : "Thousand Miles Eye" - An Intelligent Water Management Solution with 5G and Automated Drone Inspection
+* **November 2022 - June 2024** : Research on an Automated Multimodal Forest Fire Detection System Based on Gesture Control and Behavior Monitoring Technologies
+
 ## SCI Paper
 
 1. "RFWNet: A Multi-scale Remote Sensing Forest Wildfire Detection Network with Digital Twinning, Adaptive Spatial
