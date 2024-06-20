@@ -42,8 +42,8 @@ links:
     url: /publications/
   - title: Awards
     url: /awards/
-  - title: Projects
-    url: /project/
+  # - title: Projects
+  #   url: /project/
   - title: Teams
     url: /teams/
 
