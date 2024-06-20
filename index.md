@@ -3,7 +3,8 @@ layout: page
 ---
 # About Me
 
-<img src="https://wangguanbo.com/wangguanbo.jpg" class="floatpic" width="360" height="480">
+`<img src="https://github.com/Philharmy-Wang/Philharmy-Wang.github.io/blob/main/wangguanbo.jpg" class="floatpic" width="360" height="480">`
+
 
 Here is **Guanbo Wang (王冠博)**.
 
