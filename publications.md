@@ -11,36 +11,21 @@ title: Publications
 
 ## SCI Paper
 
-1. "RFWNet: A Multi-scale Remote Sensing Forest Wildfire Detection Network with Digital Twinning, Adaptive Spatial Aggregation, and Dynamic Sparse Features." IEEE Transactions on Geoscience and Remote Sensing (2024). (SCI， 中科院一区 TOP 期刊 ， 第一作者)
-2. "M4SFWD: A Multi-Faceted synthetic dataset for remote sensing forest wildfires detection." Expert Systems with Applications (2024): 123489. (SCI， 中科院一区 TOP 期刊 ， 第一作者)
-3. "Fighting against forest fire: A lightweight real-time detection approach for forest fire based on synthetic images.”
-
-Expert Systems with Applications (2024). (SCI， 中科院一区 TOP 期刊 ， 第一作者)
-
-4. "Fighting against terrorism: A real-time CCTV autonomous weapons detection based on improved YOLO v4." Digital
-
-Signal Processing (2022). (SCI， 中科院二区 ， 第一作者)
-
-5. Trident-YOLO: Improving the precision and speed of mobile device object detection[J] IET Image Processing (SCI，
-
-中科院三区，第一作者)
-
-6. TRC-YOLO: a real-time detection method for lightweight targets based on mobile devices[J] IET Computer
-
-Vision(SCI，中科院四区 ，第一作者 )
-
-7. Li, Yushan, et al. "Real-time detection algorithm for non-motorized vehicles based on D-YOLO model." Multimedia Tools and Applications (2023): 1-24.(SCI，中科院三区 ，第四作者 )
-
-8. "FS-YOLO: Real-time Fire and Smoke Detection based on Improved Object Detection Algorithms." Journal of Imaging Science and Technology (2024): 1-9.(SCI，中科院四区 ，第四作者 )
-
+1. "DPMNet: A Remote Sensing Forest Fire Real-time Detection Network Driven by Dual Pathways and Multidimensional Interactions of Features."*IEEE Transactions on Circuits and Systems for Video Technology* (2024). (SCl，**中科院一区TOP期刊**，**第一作者**);
+2. "RFWNet:A Multi-scale Remote Sensing Forest Wildfire Detection Network with Digital Twinning,Adaptive Spatial Aggregation, and Dynamic Sparse Features." *IEEE Transactions on Geoscience and Remote Sensing* (2024). (SCl，**中科院一区TOP期刊**，**第一作者**);
+3. "M4SFWD: A Multi-Faceted synthetic dataset for remote sensing forest wildfires detection."*Expert Systems with Applications* (2024). (SCl，**中科院一区TOP期刊**，**第一作者**);
+4. "Fighting against forest fire: A lightweight real-time detection approach for forest fire based on synthetic images."*Expert Systems withApplications*(2024). (SCl，**中科院一区TOP期刊**，**第一作者**);
+5. "Fighting against terrorism: A real-time CCTV autonomous weapons detection based on improved YOLO v4." *Digital Signal Processing* (2022). (SCl，中科院二区，**第一作者**);
+6. "Trident-YOLO: Improving the precision and speed of mobile device object detection." *IET Image Processing* (2021). (SCl,中科院三区，**第一作者**);
+7. "TRC-YOLO:a real-time detectionmethod for lightweight targets based on mobile devices." *IET Computer Vision* (2021). (SCl，中科院四区，**b**）
+8. "Real-time detection algorithm for non-motorized vehicles based on D-YOLO model." *Multimedia Tools and Applications* (2023). (SCI，中科院三区 ，第四作者 )
+9. \"FS-YOLO: Real-time Fire and Smoke Detection based on Improved Object Detection Algorithms." *Journal of Imaging Science and Technology* (2024).(SCI，中科院四区 ，第四作者 )
 
 ## Chinese paper
 
 1. 王冠博,杨俊东,李波,等.改进YOLO v4的火焰图像实时检测[J].计算机工程与设计,2022,43(05):1358-1365.DOI:10.16208/j.issn1000-7024.2022.05.021.
-
 2. 王冠博, 赵一帆, 李波, 杨俊东, & 丁洪伟. 改进 YOLO v4-tiny 的火焰实时检测.  *计算机工程与科学* ,  *44* (12), 2196.  **中文核心**
-
-1. 王冠博, 赵一帆, 郭嘉, 杨俊东, & 丁洪伟. (2021). 循迹避障智能小车的实验设计.  *实验科学与技术* ,  *19* (5), 38-42.
+3. 王冠博, 赵一帆, 郭嘉, 杨俊东, & 丁洪伟. (2021). 循迹避障智能小车的实验设计.  *实验科学与技术* ,  *19* (5), 38-42.
 
 ## Patents
 

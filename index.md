@@ -34,8 +34,10 @@ My research aims to develop advanced computer vision and multimodal detection te
 
 ## News and Updates
 
+- **Sep 2024：** I was awarded the National Scholarship for PhD students!
+- **Sep 2024：** My article was accepted by IEEE Transactions on Circuits and Systems for Video Technology! 🎉
 - **Jun 2024：** My article was accepted by IEEE Transactions on Geoscience and Remote Sensing! 🎉
-- **March2024：** My article was accepted by Expert Systems with Applications!🎉
+- **Mar 2024：** My article was accepted by Expert Systems with Applications!🎉
 - **Jan 2024：** The patent I applied for was approved!
 - **Dec 2023：** I won the second prize in the 2023 Huawei Cup Graduate Student Mathematical Modeling!
 - **Jul 2023：** I won first prize in the 2023 Number Dimension Cup for Graduate Student Mathematical Modeling!
