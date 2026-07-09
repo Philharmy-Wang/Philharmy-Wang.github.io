@@ -6,19 +6,20 @@ lang: zh
 description: 王冠博的研究项目。
 ---
 
-## 当前研究主题
-
-<div class="card-grid">
-  <div class="info-card"><strong>猕猴视觉感知</strong><br>面向非人灵长类视觉感知分析的计算机视觉方法。</div>
-  <div class="info-card"><strong>个体识别</strong><br>复杂监测场景下的猕猴检测与身份识别流程。</div>
-  <div class="info-card"><strong>姿态与行为理解</strong><br>面向长期观测的姿态估计与行为分析。</div>
-  <div class="info-card"><strong>多摄像头笼舍监测</strong><br>跨同步摄像头视角的长期视觉监测。</div>
-  <div class="info-card"><strong>轻量化部署</strong><br>面向边缘侧和资源受限场景的高效检测模型。</div>
-  <div class="info-card"><strong>遥感森林火灾检测</strong><br>面向森林火灾监测的多模态检测方法。</div>
+<div class="project-card">
+  <h2>非人灵长类行为理解</h2>
+  <p>当前博士后阶段研究方向，聚焦视觉感知、猕猴个体识别、姿态估计、行为理解和长期多摄像头笼舍监测。</p>
+  <span class="metric-badge">当前方向</span><span class="metric-badge">计算机视觉</span><span class="metric-badge">行为理解</span>
 </div>
 
-## 早期项目经历
+<div class="project-card">
+  <h2>长期多摄像头笼舍监测</h2>
+  <p>面向连续动物观测的多视角视觉监测流程研究。相关数据与系统细节仍处于内部审核阶段。</p>
+  <span class="metric-badge">under internal review</span><span class="metric-badge">to be released</span>
+</div>
 
-- 自动化多模态森林火灾检测系统研究。
-- 智能水务管理与无人机巡检相关工作。
-- 结合行为监测技术的多模态检测系统研究。
+<div class="project-card">
+  <h2>无人机与遥感森林火灾检测</h2>
+  <p>博士阶段代表研究方向，包括自动化多模态森林火灾检测、轻量化实时检测和无人机巡检流程。</p>
+  <span class="metric-badge">遥感</span><span class="metric-badge">森林火灾检测</span>
+</div>

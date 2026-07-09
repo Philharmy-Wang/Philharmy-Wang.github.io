@@ -8,6 +8,8 @@ description: Awards and honors of Guanbo Wang.
 
 ## Scholarships and Honors
 
+<p class="section-note">Selected awards and honors received by <strong>Guanbo Wang</strong>.</p>
+
 - National Graduate Scholarship, 2021.
 - National Scholarship for PhD students, 2024.
 - Graduate Academic Scholarship, 2019-2020, Third Prize.

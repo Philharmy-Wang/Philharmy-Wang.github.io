@@ -1,0 +1,48 @@
+- date: "2025-07"
+  title_en: "Joined Kunming Institute of Zoology, Chinese Academy of Sciences, as a postdoctoral researcher / assistant research fellow."
+  title_zh: "入职中国科学院昆明动物研究所，开展博士后/助理研究员阶段研究。"
+  category: "Position"
+  highlight: true
+  link: ""
+
+- date: "2025"
+  title_en: "Completed Ph.D. in Information and Communication Engineering at Yunnan University."
+  title_zh: "完成云南大学信息与通信工程专业博士阶段学习。"
+  category: "Education"
+  highlight: true
+  link: ""
+
+- date: "2025"
+  title_en: "Several collaborative works were published or became available in journals including Knowledge-Based Systems, IEEE Transactions on Multimedia, IEEE Transactions on Instrumentation and Measurement, Applied Soft Computing, and Digital Signal Processing. To be verified."
+  title_zh: "多项合作研究发表于或在线发表于 Knowledge-Based Systems、IEEE Transactions on Multimedia、IEEE Transactions on Instrumentation and Measurement、Applied Soft Computing 和 Digital Signal Processing 等期刊。待核验。"
+  category: "Publications"
+  highlight: false
+  link: "/publications/"
+
+- date: "2024"
+  title_en: "Paper accepted/published in IEEE Transactions on Circuits and Systems for Video Technology."
+  title_zh: "论文被 IEEE Transactions on Circuits and Systems for Video Technology 接收/发表。"
+  category: "Publication"
+  highlight: true
+  link: "/publications/"
+
+- date: "2024"
+  title_en: "Paper accepted/published in IEEE Transactions on Geoscience and Remote Sensing."
+  title_zh: "论文被 IEEE Transactions on Geoscience and Remote Sensing 接收/发表。"
+  category: "Publication"
+  highlight: true
+  link: "/publications/"
+
+- date: "2024"
+  title_en: "Paper accepted/published in Expert Systems with Applications."
+  title_zh: "论文被 Expert Systems with Applications 接收/发表。"
+  category: "Publication"
+  highlight: true
+  link: "/publications/"
+
+- date: "2024"
+  title_en: "Awarded National Scholarship for Ph.D. students."
+  title_zh: "获得博士研究生国家奖学金。"
+  category: "Award"
+  highlight: true
+  link: "/awards/"

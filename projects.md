@@ -6,19 +6,20 @@ lang: en
 description: Research projects by Guanbo Wang.
 ---
 
-## Current Research Themes
-
-<div class="card-grid">
-  <div class="info-card"><strong>Macaque visual perception</strong><br>Computer vision methods for visual perception analysis in non-human primates.</div>
-  <div class="info-card"><strong>Individual identification</strong><br>Detection and identification pipelines for macaques in complex monitoring scenes.</div>
-  <div class="info-card"><strong>Pose and behavior understanding</strong><br>Pose estimation and behavior analysis for long-term observation.</div>
-  <div class="info-card"><strong>Multi-camera cage monitoring</strong><br>Long-term visual monitoring across synchronized camera views.</div>
-  <div class="info-card"><strong>Lightweight deployment</strong><br>Efficient detection models for edge-side and resource-constrained scenarios.</div>
-  <div class="info-card"><strong>Remote sensing wildfire detection</strong><br>Multimodal detection methods for forest wildfire monitoring.</div>
+<div class="project-card">
+  <h2>Non-human Primate Behavior Understanding</h2>
+  <p>Current postdoctoral research on visual perception, macaque individual identification, pose estimation, behavior understanding, and long-term multi-camera cage monitoring.</p>
+  <span class="metric-badge">Current</span><span class="metric-badge">Computer Vision</span><span class="metric-badge">Behavior Understanding</span>
 </div>
 
-## Earlier Project Experience
+<div class="project-card">
+  <h2>Long-term Multi-camera Cage Monitoring</h2>
+  <p>Research on multi-view visual monitoring pipelines for continuous animal observation. Dataset and system details are under internal review.</p>
+  <span class="metric-badge">under internal review</span><span class="metric-badge">to be released</span>
+</div>
 
-- Research on automated multimodal forest fire detection systems.
-- Intelligent water management and UAV inspection workflows.
-- Multimodal detection systems with behavior monitoring technologies.
+<div class="project-card">
+  <h2>UAV and Remote Sensing Wildfire Detection</h2>
+  <p>Doctoral-stage research on automated multimodal forest fire detection, lightweight real-time detection, and UAV inspection workflows.</p>
+  <span class="metric-badge">Remote Sensing</span><span class="metric-badge">Wildfire Detection</span>
+</div>
