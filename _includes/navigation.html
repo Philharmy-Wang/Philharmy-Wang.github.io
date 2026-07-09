@@ -1,17 +1,20 @@
-<div class="navigation-wrapper">
-	<div class="site-name">
-		<a href="{{ site.url }}">{{ site.title }}</a>
-	</div><!-- /.site-name -->
-  {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
-	<div class="top-navigation">
-		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-		    <ul>
-		        {% for link in site.links %}
-            <li><a href="{{ site.url }}{{ link.url }}" {% if url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
-		        {% endfor %}
-		    </ul>
-		</nav>
-	</div><!-- /.top-navigation -->
-</div><!-- /.navigation-wrapper -->
+{% assign current_url = page.url | remove: 'index.html' %}
+{% assign nav_links = site.links_en %}
+{% if page.lang == 'zh' %}
+  {% assign nav_links = site.links_zh %}
+{% endif %}
 
-<!-- Lastly modified by Hanlin CAI in 2023/05/01 -->
+<div class="navigation-wrapper">
+  <div class="site-name">
+    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  </div>
+  <div class="top-navigation">
+    <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <ul>
+        {% for link in nav_links %}
+          <li><a href="{{ link.url | relative_url }}" {% if current_url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</div>
