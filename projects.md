@@ -3,23 +3,34 @@ layout: page
 permalink: /projects/
 title: Projects
 lang: en
-description: Research projects by Guanbo Wang.
+description: Research projects, grants, and participated projects of Guanbo Wang.
 ---
 
-<div class="project-card">
-  <h2>Non-human Primate Behavior Understanding</h2>
-  <p>Current postdoctoral research on visual perception, macaque individual identification, pose estimation, behavior understanding, and long-term multi-camera cage monitoring.</p>
-  <span class="metric-badge">Current</span><span class="metric-badge">Computer Vision</span><span class="metric-badge">Behavior Understanding</span>
-</div>
+<p class="section-note">Selected grants, talent programs, research projects, and participated projects. Funding and project numbers are shown only when provided in the master data.</p>
 
-<div class="project-card">
-  <h2>Long-term Multi-camera Cage Monitoring</h2>
-  <p>Research on multi-view visual monitoring pipelines for continuous animal observation. Dataset and system details are under internal review.</p>
-  <span class="metric-badge">under internal review</span><span class="metric-badge">to be released</span>
-</div>
-
-<div class="project-card">
-  <h2>UAV and Remote Sensing Wildfire Detection</h2>
-  <p>Doctoral-stage research on automated multimodal forest fire detection, lightweight real-time detection, and UAV inspection workflows.</p>
-  <span class="metric-badge">Remote Sensing</span><span class="metric-badge">Wildfire Detection</span>
-</div>
+{% assign groups = "Grants and Talent Programs|Research Projects|Participated Projects" | split: "|" %}
+{% for group in groups %}
+  <h2>{{ group }}</h2>
+  <div class="project-list">
+  {% assign items = site.data.projects | where: "group", group %}
+  {% for item in items %}
+    <article class="project-card">
+      <h2>{{ item.title_en }}</h2>
+      <p><strong>{{ item.project_en }}</strong></p>
+      <p class="pub-venue">
+        {% if item.agency_en %}{{ item.agency_en }}{% endif %}
+        {% if item.project_no %} · No. {{ item.project_no }}{% endif %}
+      </p>
+      <p class="pub-meta">
+        {% if item.period %}<span>{{ item.period }}</span>{% endif %}
+        {% if item.role_en %}<span>{{ item.role_en }}</span>{% endif %}
+        {% if item.status_en %}<span>{{ item.status_en }}</span>{% endif %}
+      </p>
+      <div class="metric-row">
+        {% if item.funding_en %}<span class="metric-badge">{{ item.funding_en }}</span>{% endif %}
+        {% if item.category_en %}<span class="metric-badge">{{ item.category_en }}</span>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+{% endfor %}

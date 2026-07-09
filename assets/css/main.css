@@ -609,4 +609,9 @@ a:hover{color:#21384d;}
 .news-date{font-weight:700;color:#21384d;margin-right:.45rem;}
 .news-category{display:inline-block;background:#f0f5f3;color:#416b55;border:1px solid #d7e5dc;border-radius:999px;padding:.08rem .45rem;font-size:.78rem;margin-right:.45rem;}
 .project-card h2,.dataset-card h2{font-size:1.2rem;margin-bottom:.5rem;color:#21384d;}
+.project-list{display:grid;grid-template-columns:1fr;gap:1rem;margin:1rem 0 1.5rem;}
+.project-list.compact-list{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+.cv-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:1rem;background:#fff;border:1px solid #dbe4ec;border-radius:8px;padding:.8rem 1rem;margin:.65rem 0;box-shadow:0 4px 14px rgba(33,56,77,.04);}
+.cv-row strong{color:#21384d;}
+@media (max-width:720px){.cv-row{grid-template-columns:1fr;gap:.25rem;}.project-list.compact-list{grid-template-columns:1fr;}}
 @media (max-width:720px){.hero-section{grid-template-columns:1fr;padding:1.1rem;}.hero-title{font-size:1.65rem;}.research-grid,.publication-grid{grid-template-columns:1fr;}}

@@ -3,23 +3,34 @@ layout: page
 permalink: /zh/projects/
 title: 研究项目
 lang: zh
-description: 王冠博的研究项目。
+description: 王冠博的科研项目、人才计划与参与项目。
 ---
 
-<div class="project-card">
-  <h2>非人灵长类行为理解</h2>
-  <p>当前博士后阶段研究方向，聚焦视觉感知、猕猴个体识别、姿态估计、行为理解和长期多摄像头笼舍监测。</p>
-  <span class="metric-badge">当前方向</span><span class="metric-badge">计算机视觉</span><span class="metric-badge">行为理解</span>
-</div>
+<p class="section-note">以下展示人才计划、项目资助、主持项目与参与项目。项目编号和资助金额仅在主数据中已提供时展示。</p>
 
-<div class="project-card">
-  <h2>长期多摄像头笼舍监测</h2>
-  <p>面向连续动物观测的多视角视觉监测流程研究。相关数据与系统细节仍处于内部审核阶段。</p>
-  <span class="metric-badge">under internal review</span><span class="metric-badge">to be released</span>
-</div>
-
-<div class="project-card">
-  <h2>无人机与遥感森林火灾检测</h2>
-  <p>博士阶段代表研究方向，包括自动化多模态森林火灾检测、轻量化实时检测和无人机巡检流程。</p>
-  <span class="metric-badge">遥感</span><span class="metric-badge">森林火灾检测</span>
-</div>
+{% assign groups = "人才计划与项目资助|科研项目|参与项目" | split: "|" %}
+{% for group in groups %}
+  <h2>{{ group }}</h2>
+  <div class="project-list">
+  {% assign items = site.data.projects | where: "group_zh", group %}
+  {% for item in items %}
+    <article class="project-card">
+      <h2>{{ item.title_zh }}</h2>
+      <p><strong>{{ item.project_zh }}</strong></p>
+      <p class="pub-venue">
+        {% if item.agency_zh %}{{ item.agency_zh }}{% endif %}
+        {% if item.project_no %} · 编号：{{ item.project_no }}{% endif %}
+      </p>
+      <p class="pub-meta">
+        {% if item.period %}<span>{{ item.period }}</span>{% endif %}
+        {% if item.role_zh %}<span>{{ item.role_zh }}</span>{% endif %}
+        {% if item.status_zh %}<span>{{ item.status_zh }}</span>{% endif %}
+      </p>
+      <div class="metric-row">
+        {% if item.funding_zh %}<span class="metric-badge">{{ item.funding_zh }}</span>{% endif %}
+        {% if item.category_zh %}<span class="metric-badge">{{ item.category_zh }}</span>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+{% endfor %}

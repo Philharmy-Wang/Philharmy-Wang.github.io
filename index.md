@@ -8,14 +8,14 @@ description: Guanbo Wang, computer vision for non-human primate behavior underst
 
 <section class="hero-section">
   <div class="hero-copy">
-    <p class="eyebrow">Guanbo Wang / 王冠博</p>
-    <h1 class="hero-title">Computer Vision for Non-human Primate Behavior Understanding</h1>
-    <p class="hero-subtitle">Postdoctoral Researcher / Assistant Research Fellow</p>
-    <p class="hero-meta">Kunming Institute of Zoology, Chinese Academy of Sciences</p>
+    <p class="eyebrow">{{ site.data.profile.name_en }} / {{ site.data.profile.name_zh }}</p>
+    <h1 class="hero-title">{{ site.data.profile.positioning_en }}</h1>
+    <p class="hero-subtitle">{{ site.data.profile.position_en }}</p>
+    <p class="hero-meta">{{ site.data.profile.affiliation_en }} · BRID: {{ site.data.profile.brid }}</p>
     <div class="hero-actions">
-      <a class="button-link primary" href="mailto:wgb1018@gmail.com">Email</a>
-      <a class="button-link" href="https://scholar.google.com/citations?user=Np7b_CQAAAAJ&hl=zh-TW">Google Scholar</a>
-      <a class="button-link" href="https://github.com/Philharmy-Wang">GitHub</a>
+      <a class="button-link primary" href="mailto:{{ site.data.profile.email }}">Email</a>
+      <a class="button-link" href="{{ site.data.profile.scholar }}">Google Scholar</a>
+      <a class="button-link" href="https://github.com/{{ site.data.profile.github }}">GitHub</a>
       <a class="button-link" href="/cv/">CV</a>
       <a class="button-link lang-switch" href="/zh/">中文</a>
     </div>
@@ -25,26 +25,21 @@ description: Guanbo Wang, computer vision for non-human primate behavior underst
 
 ## Short Bio
 
-I am **Guanbo Wang**, a Postdoctoral Researcher / Assistant Research Fellow at the **Kunming Institute of Zoology, Chinese Academy of Sciences**. My research develops computer vision methods for non-human primate visual perception, macaque individual identification, pose estimation, behavior understanding, and long-term multi-camera monitoring.
-
-My broader work also includes lightweight object detection, edge deployment, and multimodal remote sensing for wildfire detection. I welcome academic collaboration around reliable visual perception systems for animal behavior research.
+{{ site.data.profile.bio_en }}
 
 ## Research Interests
 
 <div class="research-grid">
-  <div class="research-card"><strong>Non-human Primate Visual Perception</strong><br>Visual AI methods for primate observation and behavioral research.</div>
-  <div class="research-card"><strong>Macaque Detection and Individual Identification</strong><br>Identity-aware detection under occlusion, motion, and cage environments.</div>
-  <div class="research-card"><strong>Pose Estimation and Behavior Understanding</strong><br>Pose-driven analysis for long-term, fine-grained behavior observation.</div>
-  <div class="research-card"><strong>Long-term Multi-camera Cage Monitoring</strong><br>Multi-view pipelines for continuous animal behavior recording.</div>
-  <div class="research-card"><strong>Lightweight Object Detection and Edge Deployment</strong><br>Efficient real-time models for resource-constrained deployment.</div>
-  <div class="research-card"><strong>Multimodal Remote Sensing and Wildfire Detection</strong><br>Detection methods for remote sensing wildfire monitoring.</div>
+{% for area in site.data.profile.research_areas_en limit: 8 %}
+  <div class="research-card"><strong>{{ area }}</strong></div>
+{% endfor %}
 </div>
 
 ## Selected Publications
 
 <div class="publication-grid">
 {% assign selected_pubs = site.data.publications | where: "selected", true %}
-{% for pub in selected_pubs limit: 6 %}
+{% for pub in selected_pubs limit: 5 %}
   {% include publication-card.html pub=pub lang='en' %}
 {% endfor %}
 </div>
@@ -54,7 +49,7 @@ My broader work also includes lightweight object detection, edge deployment, and
 ## Recent Updates
 
 <div class="news-timeline">
-{% for item in site.data.news %}
+{% for item in site.data.news limit: 8 %}
   <div class="news-item">
     <span class="news-date">{{ item.date }}</span>
     <span class="news-category">{{ item.category }}</span>
@@ -65,4 +60,4 @@ My broader work also includes lightweight object detection, edge deployment, and
 
 ## Current Research
 
-My current postdoctoral research focuses on non-human primate visual perception, macaque individual identification, pose estimation and behavior understanding, and long-term multi-camera cage monitoring.
+Current research focuses on non-human primate visual perception and behavior understanding, especially individual detection and identification, keypoint detection, cross-view identity association, long-term trajectory maintenance, multimodal behavior recognition, and emotional state assessment in group-housed macaque scenarios.

@@ -2,16 +2,18 @@
 {% assign lang = include.lang | default: 'en' %}
 <article class="publication-card">
   <h3 class="pub-title">{{ pub.title }}</h3>
-  <p class="pub-authors">{% if lang == 'zh' %}{{ pub.authors_zh_html }}{% else %}{{ pub.authors_html }}{% endif %}</p>
-  <p class="pub-venue">{{ pub.venue }}{% if pub.volume_pages and pub.volume_pages != '' %}, {{ pub.volume_pages }}{% endif %}. {{ pub.year }}.</p>
+  <p class="pub-authors">{% if lang == 'zh' %}{{ pub.authors_zh_html }}{% else %}{{ pub.authors_en_html }}{% endif %}</p>
+  <p class="pub-venue">{{ pub.venue }}{% if pub.volume_issue_pages and pub.volume_issue_pages != '' %}, {{ pub.volume_issue_pages }}{% endif %}. {{ pub.year }}.</p>
   <p class="pub-meta">
-    <span>{% if lang == 'zh' %}{{ pub.contribution_role_zh }}{% else %}{{ pub.contribution_role }}{% endif %}</span>
-    <span>{% if lang == 'zh' %}截图引用：{% else %}Citations: {% endif %}{{ pub.citation_count_from_scholar_screenshot }}</span>
+    <span>{% if lang == 'zh' %}{{ pub.role_zh }}{% else %}{{ pub.role_en }}{% endif %}</span>
+    <span>{% if lang == 'zh' %}截图引用：{% else %}Citations from screenshot: {% endif %}{{ pub.citation_count_from_scholar_screenshot }}</span>
+    <span>{% if lang == 'zh' %}第一单位：{% else %}First affiliation: {% endif %}{{ pub.first_affiliation }}</span>
   </p>
-  <p>{% if lang == 'zh' %}{{ pub.highlight_zh }}{% else %}{{ pub.highlight_en }}{% endif %}</p>
+  <p>{% if lang == 'zh' %}{{ pub.contribution_zh }}{% else %}{{ pub.contribution_en }}{% endif %}</p>
   <div class="metric-row">
     <span class="metric-badge">CAS {{ pub.metrics.cas_zone }}</span>
     <span class="metric-badge">TOP {{ pub.metrics.cas_top }}</span>
+    <span class="metric-badge">{{ pub.metrics.sci_upgrade_zone }}</span>
     <span class="metric-badge">JCR {{ pub.metrics.jcr_quartile }}</span>
     <span class="metric-badge">IF {{ pub.metrics.impact_factor }}</span>
     <span class="metric-badge">5-Year IF {{ pub.metrics.five_year_impact_factor }}</span>

@@ -3,32 +3,57 @@ layout: page
 permalink: /awards/
 title: Awards
 lang: en
-description: Awards and honors of Guanbo Wang.
+description: Awards, honors, talent programs, and competition awards of Guanbo Wang.
 ---
 
-## Scholarships and Honors
+<p class="section-note">Awards and honors are organized from the provided master data. Certificate files are not published unless explicitly released.</p>
 
-<p class="section-note">Selected awards and honors received by <strong>Guanbo Wang</strong>.</p>
+## Talent Programs and Grants
 
-- National Graduate Scholarship, 2021.
-- National Scholarship for PhD students, 2024.
-- Graduate Academic Scholarship, 2019-2020, Third Prize.
-- Graduate Academic Scholarship, 2020-2021, Third Prize.
-- Graduate Academic Scholarship, 2021-2022, First Prize.
-- Graduate Academic Scholarship, 2022-2023, Second Prize.
-- Open Science Annual Author, 2022.
-- High Impact Paper in CNKI Academic Essentials database.
+<div class="project-list">
+{% for item in site.data.awards.talent_grants %}
+  <article class="project-card">
+    <h2>{{ item.title_en }}</h2>
+    <p class="pub-meta"><span>{{ item.year }}</span><span>{{ item.role_en }}</span></p>
+  </article>
+{% endfor %}
+</div>
 
-## Competitions
+## Academic Honors
 
-- Huawei Cup China Graduate Mathematical Modeling Competition, Third Prize, 2019.
-- Mathematical Contest in Modeling, Honorable Mention, 2020.
-- China Graduate Electronic Design Competition, Business Plan Preliminary, Third Prize, 2021.
-- Mathematical Contest in Modeling, Honorable Mention, 2021.
-- Shuwei Cup College Student Mathematical Modeling Competition, Second Prize, 2021.
-- Shuwei Cup College Student Mathematical Modeling Competition, Third Prize, 2021.
-- Huawei Cup China Graduate Mathematical Modeling Competition, Second Prize, 2022.
-- Internet+ Innovation and Entrepreneurship Competition, University-Level Bronze, 2022.
-- Internet+ Innovation and Entrepreneurship Competition, University-Level Bronze, 2023.
-- Shuwei Cup Mathematical Modeling, First Prize, 2023.
-- Huawei Cup China Graduate Mathematical Modeling Competition, Second Prize, 2023.
+<div class="project-list compact-list">
+{% for item in site.data.awards.academic_honors %}
+  <article class="project-card">
+    <h2>{{ item.title_en }}</h2>
+    <p class="pub-meta"><span>{{ item.year }}</span></p>
+  </article>
+{% endfor %}
+</div>
+
+## Competition Awards
+
+<div class="project-list">
+{% for item in site.data.awards.competitions %}
+  <article class="project-card">
+    <h2>{{ item.title_en }}</h2>
+    {% if item.project_en %}<p><strong>{{ item.project_en }}</strong></p>{% endif %}
+    <p class="pub-meta">
+      <span>{{ item.year }}</span>
+      {% if item.role_en %}<span>{{ item.role_en }}</span>{% endif %}
+      {% if item.certificate_no %}<span>Certificate No. {{ item.certificate_no }}</span>{% endif %}
+    </p>
+    {% if item.issuer_en %}<p class="pub-venue">{{ item.issuer_en }}{% if item.issued_date_en %}, {{ item.issued_date_en }}{% endif %}</p>{% endif %}
+  </article>
+{% endfor %}
+</div>
+
+## Certificates
+
+<div class="project-list compact-list">
+{% for item in site.data.awards.certificates %}
+  <article class="project-card">
+    <h2>{{ item.title_en }}</h2>
+    <p class="pub-meta"><span>{{ item.year }}</span></p>
+  </article>
+{% endfor %}
+</div>
