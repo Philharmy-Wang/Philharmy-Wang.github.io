@@ -1,10 +1,24 @@
 ---
 layout: page
-permalink: /teams/index.html
-title: Teams
+permalink: /projects/
+title: Projects
+lang: en
+description: Research projects by Guanbo Wang.
 ---
-Throughout my academic career, I have led several innovative research projects that have not only pushed the boundaries of scientific inquiry but also addressed urgent practical issues. Here are some key projects I have led:
 
-* **March 2023 - March 2024** : Research on an Automated Multimodal Forest Fire Detection System Based on Attention Mechanisms Perceptible to Humans
-* **March 2023 - June 2023** : "Thousand Miles Eye" - An Intelligent Water Management Solution with 5G and Automated Drone Inspection
-* **November 2022 - June 2024** : Research on an Automated Multimodal Forest Fire Detection System Based on Gesture Control and Behavior Monitoring Technologies
+## Current Research Themes
+
+<div class="card-grid">
+  <div class="info-card"><strong>Macaque visual perception</strong><br>Computer vision methods for visual perception analysis in non-human primates.</div>
+  <div class="info-card"><strong>Individual identification</strong><br>Detection and identification pipelines for macaques in complex monitoring scenes.</div>
+  <div class="info-card"><strong>Pose and behavior understanding</strong><br>Pose estimation and behavior analysis for long-term observation.</div>
+  <div class="info-card"><strong>Multi-camera cage monitoring</strong><br>Long-term visual monitoring across synchronized camera views.</div>
+  <div class="info-card"><strong>Lightweight deployment</strong><br>Efficient detection models for edge-side and resource-constrained scenarios.</div>
+  <div class="info-card"><strong>Remote sensing wildfire detection</strong><br>Multimodal detection methods for forest wildfire monitoring.</div>
+</div>
+
+## Earlier Project Experience
+
+- Research on automated multimodal forest fire detection systems.
+- Intelligent water management and UAV inspection workflows.
+- Multimodal detection systems with behavior monitoring technologies.

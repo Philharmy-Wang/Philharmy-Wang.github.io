@@ -1,6 +1,14 @@
 MIT License
 
-Copyright (c) 2023 Hanlin Cai
+This repository contains site-specific content and code for the academic
+homepage of Guanbo Wang. Portions of the vendored Jekyll theme structure,
+layouts, includes, CSS, JavaScript, and static assets are adapted from
+Minimal Mistakes and from the prior fork/template code. Those portions remain
+under their original MIT license notices.
+
+Copyright (c) 2013-2026 Michael Rose and contributors, Minimal Mistakes
+Copyright (c) 2023 Hanlin Cai, prior fork/template code
+Copyright (c) 2026 Guanbo Wang, site-specific content and modifications
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

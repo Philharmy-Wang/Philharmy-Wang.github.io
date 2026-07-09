@@ -1,46 +1,41 @@
 ---
 layout: page
+title: About
+permalink: /
+lang: en
+description: Guanbo Wang, computer vision for non-human primate behavior understanding.
 ---
-# About Me
 
-<img src="https://github.com/Philharmy-Wang/Philharmy-Wang.github.io/assets/51520993/29576fc8-f082-49b1-ac61-98ef2d2aed5c" class="floatpic" width="360" height="480">
+<section class="hero-card">
+  <div>
+    <p class="eyebrow">Guanbo Wang / 王冠博</p>
+    <h1>Computer Vision for Non-human Primate Behavior Understanding</h1>
+    <p class="lead">Postdoctoral Researcher / Assistant Research Fellow at the Kunming Institute of Zoology, Chinese Academy of Sciences.</p>
+    <p class="link-row"><a href="mailto:wgb1018@gmail.com">Email</a><a href="https://github.com/Philharmy-Wang">GitHub</a><a href="https://scholar.google.com/citations?user=Np7b_CQAAAAJ&hl=zh-TW">Google Scholar</a><a href="/zh/">中文</a></p>
+  </div>
+  <img src="/images/wangguanbo.jpg" alt="Guanbo Wang" class="profile-large">
+</section>
 
-Here is **Guanbo Wang (王冠博)**.
+## About
 
-I am a Ph.D. candidate in the Information and Communication Engineering program at the School of Information, Yunnan University, class of 2019. I am expected to graduate in 2025, with my main research areas being computer vision, multimodal detection, and remote sensing forest fire detection. My research is supervised by Professor Haiyan Li.
+I am **Guanbo Wang**, a Postdoctoral Researcher / Assistant Research Fellow at the **Kunming Institute of Zoology, Chinese Academy of Sciences**. My research focuses on computer vision methods for visual perception, detection, identification, pose estimation, and behavior understanding in non-human primates, with additional work in lightweight object detection and multimodal remote sensing.
 
-If you are interested in any aspect of my work, I would be delighted to chat and collaborate. Please feel free to email me at [wgb1018@gmail.com]().
-
-## Education Background
-
-* **Sep 2022 - Jun 2025** : Yunnan University, Ph.D. in Information and Communication Engineering at the School of Information (Master-Ph.D. combined program)
-* **Sep 2019 - Jun 2022** : Yunnan University, Master's degree in Communication and Information Systems at the School of Information
-* **Sep 2013 - Jul 2017** : Xuchang University, Bachelor's degree in Communication Engineering
-* **Sep 2014 - Jul 2017** : Xuchang University, Bachelor's degree in Business Administration (Minor)
-
----
+I welcome academic discussion and collaboration related to computer vision, macaque behavior monitoring, long-term multi-camera observation systems, and efficient deployment of visual models.
 
 ## Research Interests
 
-* Computer Vision
-* Multimodal Object Detection
-* Remote Sensing Forest Fire Detection
+<div class="card-grid">
+  <div class="info-card">Computer Vision</div>
+  <div class="info-card">Non-human Primate Visual Perception</div>
+  <div class="info-card">Macaque Detection and Individual Identification</div>
+  <div class="info-card">Pose Estimation and Behavior Understanding</div>
+  <div class="info-card">Long-term Multi-camera Cage Monitoring</div>
+  <div class="info-card">Lightweight Object Detection and Edge Deployment</div>
+  <div class="info-card">Multimodal Remote Sensing and Wildfire Detection</div>
+</div>
 
-Since my master's studies, I have been dedicated to research in object detection. Given the frequent forest fires in Yunnan in recent years, my research has gradually focused on remote sensing forest fire detection.
+## Contact
 
-My research aims to develop advanced computer vision and multimodal detection techniques to improve the accuracy and speed of detecting forest fires. The significance of this research lies in its potential to provide timely and precise monitoring, which is crucial for preventing widespread forest fire damage and protecting both ecological environments and human lives.
-
----
-
-## News and Updates
-
-- **Sep 2024：** I was awarded the National Scholarship for PhD students!
-- **Sep 2024：** My article was accepted by IEEE Transactions on Circuits and Systems for Video Technology! 🎉
-- **Jun 2024：** My article was accepted by IEEE Transactions on Geoscience and Remote Sensing! 🎉
-- **Mar 2024：** My article was accepted by Expert Systems with Applications!🎉
-- **Jan 2024：** The patent I applied for was approved!
-- **Dec 2023：** I won the second prize in the 2023 Huawei Cup Graduate Student Mathematical Modeling!
-- **Jul 2023：** I won first prize in the 2023 Number Dimension Cup for Graduate Student Mathematical Modeling!
-- **Apr 2023：** My paper was selected as a high-impact paper in the China Knowledge Network's Academic Essentials Database!
-- **Dec 2022：** I received the 2022 Distinguished Open Science Author Award!
-- **Dec 2022：** My paper was accepted into Digital Signal Processing!
+- Email: [wgb1018@gmail.com](mailto:wgb1018@gmail.com)
+- GitHub: [Philharmy-Wang](https://github.com/Philharmy-Wang)
+- Google Scholar: [Guanbo Wang](https://scholar.google.com/citations?user=Np7b_CQAAAAJ&hl=zh-TW)
