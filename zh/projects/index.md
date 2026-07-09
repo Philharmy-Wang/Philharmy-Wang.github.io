@@ -3,22 +3,34 @@ layout: page
 permalink: /zh/projects/
 title: 研究项目
 lang: zh
-description: 王冠博的研究项目。
+description: 王冠博的科研项目、人才计划与参与项目。
 ---
 
-## 当前研究主题
+<p class="section-note">以下展示人才计划、项目资助、主持项目与参与项目。项目编号和资助金额仅在主数据中已提供时展示。</p>
 
-<div class="card-grid">
-  <div class="info-card"><strong>猕猴视觉感知</strong><br>面向非人灵长类视觉感知分析的计算机视觉方法。</div>
-  <div class="info-card"><strong>个体识别</strong><br>复杂监测场景下的猕猴检测与身份识别流程。</div>
-  <div class="info-card"><strong>姿态与行为理解</strong><br>面向长期观测的姿态估计与行为分析。</div>
-  <div class="info-card"><strong>多摄像头笼舍监测</strong><br>跨同步摄像头视角的长期视觉监测。</div>
-  <div class="info-card"><strong>轻量化部署</strong><br>面向边缘侧和资源受限场景的高效检测模型。</div>
-  <div class="info-card"><strong>遥感森林火灾检测</strong><br>面向森林火灾监测的多模态检测方法。</div>
-</div>
-
-## 早期项目经历
-
-- 自动化多模态森林火灾检测系统研究。
-- 智能水务管理与无人机巡检相关工作。
-- 结合行为监测技术的多模态检测系统研究。
+{% assign groups = "人才计划与项目资助|科研项目|参与项目" | split: "|" %}
+{% for group in groups %}
+  <h2>{{ group }}</h2>
+  <div class="project-list">
+  {% assign items = site.data.projects | where: "group_zh", group %}
+  {% for item in items %}
+    <article class="project-card">
+      <h2>{{ item.title_zh }}</h2>
+      <p><strong>{{ item.project_zh }}</strong></p>
+      <p class="pub-venue">
+        {% if item.agency_zh %}{{ item.agency_zh }}{% endif %}
+        {% if item.project_no %} · 编号：{{ item.project_no }}{% endif %}
+      </p>
+      <p class="pub-meta">
+        {% if item.period %}<span>{{ item.period }}</span>{% endif %}
+        {% if item.role_zh %}<span>{{ item.role_zh }}</span>{% endif %}
+        {% if item.status_zh %}<span>{{ item.status_zh }}</span>{% endif %}
+      </p>
+      <div class="metric-row">
+        {% if item.funding_zh %}<span class="metric-badge">{{ item.funding_zh }}</span>{% endif %}
+        {% if item.category_zh %}<span class="metric-badge">{{ item.category_zh }}</span>{% endif %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+{% endfor %}

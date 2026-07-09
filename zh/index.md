@@ -6,36 +6,59 @@ lang: zh
 description: 王冠博，面向非人灵长类行为理解的计算机视觉研究。
 ---
 
-<section class="hero-card">
-  <div>
-    <p class="eyebrow">王冠博 / Guanbo Wang</p>
-    <h1>面向非人灵长类行为理解的计算机视觉研究</h1>
-    <p class="lead">中国科学院昆明动物研究所，博士后 / 助理研究员。</p>
-    <p class="link-row"><a href="mailto:wgb1018@gmail.com">邮箱</a><a href="https://github.com/Philharmy-Wang">GitHub</a><a href="https://scholar.google.com/citations?user=Np7b_CQAAAAJ&hl=zh-TW">Google Scholar</a><a href="/">English</a></p>
+<section class="hero-section">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ site.data.profile.name_zh }} / {{ site.data.profile.name_en }}</p>
+    <h1 class="hero-title">{{ site.data.profile.positioning_zh }}</h1>
+    <p class="hero-subtitle">{{ site.data.profile.position_zh }}</p>
+    <p class="hero-meta">{{ site.data.profile.affiliation_zh }} · BRID: {{ site.data.profile.brid }}</p>
+    <div class="hero-actions">
+      <a class="button-link primary" href="mailto:{{ site.data.profile.email }}">邮箱</a>
+      <a class="button-link" href="{{ site.data.profile.scholar }}">Google Scholar</a>
+      <a class="button-link" href="https://github.com/{{ site.data.profile.github }}">GitHub</a>
+      <a class="button-link" href="/zh/cv/">简历</a>
+      <a class="button-link lang-switch" href="/">English</a>
+    </div>
   </div>
   <img src="/images/wangguanbo.jpg" alt="王冠博" class="profile-large">
 </section>
 
-## 关于我
+## 简介
 
-我是**王冠博**，现任中国科学院昆明动物研究所博士后 / 助理研究员。我的研究聚焦于面向非人灵长类行为理解的计算机视觉方法，包括视觉感知、目标检测、个体识别、姿态估计、行为理解和长期多摄像头监测等方向，同时也开展轻量化目标检测与多模态遥感森林火灾检测相关研究。
-
-欢迎围绕计算机视觉、猕猴行为监测、长期多摄像头观测系统和高效视觉模型部署等方向开展学术交流与合作。
+{{ site.data.profile.bio_zh }}
 
 ## 研究兴趣
 
-<div class="card-grid">
-  <div class="info-card">计算机视觉</div>
-  <div class="info-card">非人灵长类视觉感知</div>
-  <div class="info-card">猕猴检测与个体识别</div>
-  <div class="info-card">姿态估计与行为理解</div>
-  <div class="info-card">长期多摄像头笼舍监测</div>
-  <div class="info-card">轻量化目标检测与边缘部署</div>
-  <div class="info-card">多模态遥感与森林火灾检测</div>
+<div class="research-grid">
+{% for area in site.data.profile.research_areas_zh limit: 8 %}
+  <div class="research-card"><strong>{{ area }}</strong></div>
+{% endfor %}
 </div>
 
-## 联系方式
+## 代表性论文
 
-- 邮箱：[wgb1018@gmail.com](mailto:wgb1018@gmail.com)
-- GitHub：[Philharmy-Wang](https://github.com/Philharmy-Wang)
-- Google Scholar：[Guanbo Wang](https://scholar.google.com/citations?user=Np7b_CQAAAAJ&hl=zh-TW)
+<div class="publication-grid">
+{% assign selected_pubs = site.data.publications | where: "selected", true %}
+{% for pub in selected_pubs limit: 5 %}
+  {% include publication-card.html pub=pub lang='zh' %}
+{% endfor %}
+</div>
+
+<p><a class="button-link primary" href="/zh/publications/">更多论文</a></p>
+
+## 近期动态
+
+<div class="news-timeline">
+{% for item in site.data.news limit: 8 %}
+  <div class="news-item">
+    <span class="news-date">{{ item.date }}</span>
+    <span class="news-category">{{ item.category }}</span>
+    {% assign zh_link = item.link | replace: '/publications/', '/zh/publications/' | replace: '/awards/', '/zh/awards/' | replace: '/projects/', '/zh/projects/' | replace: '/cv/', '/zh/cv/' %}
+    {% if item.link and item.link != '' %}<a href="{{ zh_link }}">{{ item.title_zh }}</a>{% else %}<span>{{ item.title_zh }}</span>{% endif %}
+  </div>
+{% endfor %}
+</div>
+
+## 当前研究
+
+当前研究主要面向非人灵长类动物视觉感知与行为理解，重点关注群笼猕猴场景下的个体检测、个体识别、关键点检测、跨视角一致归属、长时轨迹维持、多模态行为识别与情感状态评估等问题。

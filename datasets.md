@@ -6,15 +6,13 @@ lang: en
 description: Datasets and code by Guanbo Wang.
 ---
 
-## Availability
+<p class="section-note">Private server paths, internal experiment directories, unreleased dataset URLs, and non-public collaboration links are intentionally not published.</p>
 
-This page lists public or planned research resources. Private server paths, internal experiment directories, and unreleased dataset links are intentionally not published here.
-
-<div class="card-grid">
-  <div class="info-card"><strong>Non-human primate behavior datasets</strong><br>under internal review</div>
-  <div class="info-card"><strong>Macaque detection and identification resources</strong><br>to be released</div>
-  <div class="info-card"><strong>Pose estimation and behavior understanding code</strong><br>available upon reasonable request</div>
-  <div class="info-card"><strong>Remote sensing wildfire detection resources</strong><br>available upon reasonable request where release conditions permit</div>
+<div class="research-grid">
+  <div class="dataset-card"><h2>Non-human Primate Behavior Datasets</h2><p>under internal review</p></div>
+  <div class="dataset-card"><h2>Macaque Detection and Identification Resources</h2><p>to be released</p></div>
+  <div class="dataset-card"><h2>Pose Estimation and Behavior Understanding Code</h2><p>available upon reasonable request</p></div>
+  <div class="dataset-card"><h2>Remote Sensing Wildfire Detection Resources</h2><p>available upon reasonable request where release conditions permit</p></div>
 </div>
 
 For academic collaboration or resource requests, please contact me by email.

@@ -1,0 +1,289 @@
+- id: dpmnet
+  group: "First-author Publications"
+  selected: true
+  title: "DPMNet: A Remote Sensing Forest Fire Real-Time Detection Network Driven by Dual Pathways and Multidimensional Interactions of Features"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Haiyan Li*, Victor Sheng, Yujun Ma, Hongwei Ding, Hongzhi Zhao"
+  authors_zh_html: "<strong>王冠博</strong>, Haiyan Li*, Victor Sheng, Yujun Ma, Hongwei Ding, Hongzhi Zhao"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology"
+  year: "2025"
+  volume_issue_pages: "35(1): 783–799"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "25"
+  first_affiliation: "To be verified"
+  contribution_en: "Proposed the core method, designed the network architecture, conducted experiments, and wrote the manuscript."
+  contribution_zh: "提出核心方法，设计网络架构，完成全部实验与论文撰写。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 1", cas_top: "To be verified", sci_upgrade_zone: "Computer Science Zone 1", jcr_quartile: "Q1", impact_factor: "10.8", five_year_impact_factor: "10.3", esi_category: "To be verified", indexed: "EI", ccf: "B", metric_year: "To be verified"}
+- id: rfwnet
+  group: "First-author Publications"
+  selected: true
+  title: "RFWNet: A Multiscale Remote Sensing Forest Wildfire Detection Network With Digital Twinning, Adaptive Spatial Aggregation, and Dynamic Sparse Features"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Haiyan Li*, Shuhua Ye, Hongzhi Zhao, Hongwei Ding, Shidong Xie"
+  authors_zh_html: "<strong>王冠博</strong>, Haiyan Li*, Shuhua Ye, Hongzhi Zhao, Hongwei Ding, Shidong Xie"
+  venue: "IEEE Transactions on Geoscience and Remote Sensing"
+  year: "2024"
+  volume_issue_pages: "62: 4708523"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "36"
+  first_affiliation: "To be verified"
+  contribution_en: "Proposed the core method, designed the network architecture, constructed datasets, conducted experiments, and wrote the manuscript."
+  contribution_zh: "提出核心方法，设计网络架构，构建数据集，完成全部实验与论文撰写。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 1", cas_top: "Yes", sci_upgrade_zone: "Earth Science Zone 1", jcr_quartile: "Q1", impact_factor: "9.4", five_year_impact_factor: "9.4", esi_category: "Earth Science", indexed: "EI", ccf: "B", metric_year: "To be verified"}
+- id: m4sfwd
+  group: "First-author Publications"
+  selected: true
+  title: "M4SFWD: A Multi-Faceted Synthetic Dataset for Remote Sensing Forest Wildfires Detection"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Haiyan Li*, Peng Li, Xun Lang, Yanling Feng, Zhaisheng Ding, Shidong Xie"
+  authors_zh_html: "<strong>王冠博</strong>, Haiyan Li*, Peng Li, Xun Lang, Yanling Feng, Zhaisheng Ding, Shidong Xie"
+  venue: "Expert Systems with Applications"
+  year: "2024"
+  volume_issue_pages: "248: 123489"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "68"
+  first_affiliation: "To be verified"
+  contribution_en: "Proposed the dataset construction scheme, completed data generation and experimental validation, and wrote the manuscript."
+  contribution_zh: "提出数据集构建方案，完成数据生成与实验验证，撰写论文全文。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 1", cas_top: "Yes", sci_upgrade_zone: "Computer Science Zone 1", jcr_quartile: "Q1", impact_factor: "9.4", five_year_impact_factor: "9.0", esi_category: "Engineering", indexed: "EI", ccf: "C", metric_year: "To be verified"}
+- id: forest-fire-synthetic-images
+  group: "First-author Publications"
+  selected: true
+  title: "Fighting against Forest Fire: A Lightweight Real-Time Detection Approach for Forest Fire Based on Synthetic Images"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Haiyan Li*, Qing Xiao, Pengfei Yu, Zhaisheng Ding, Zongshan Wang, Shidong Xie"
+  authors_zh_html: "<strong>王冠博</strong>, Haiyan Li*, Qing Xiao, Pengfei Yu, Zhaisheng Ding, Zongshan Wang, Shidong Xie"
+  venue: "Expert Systems with Applications"
+  year: "2025"
+  volume_issue_pages: "262: 125620"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "27"
+  first_affiliation: "To be verified"
+  contribution_en: "Proposed the core method, designed the lightweight network, conducted experiments, and wrote the manuscript."
+  contribution_zh: "提出核心方法，设计轻量级网络，完成全部实验与论文撰写。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 1", cas_top: "Yes", sci_upgrade_zone: "Computer Science Zone 1", jcr_quartile: "Q1", impact_factor: "9.4", five_year_impact_factor: "9.0", esi_category: "Engineering", indexed: "EI", ccf: "C", metric_year: "To be verified"}
+- id: fighting-terrorism-yolov4
+  group: "First-author Publications"
+  selected: true
+  title: "Fighting against Terrorism: A Real-Time CCTV Autonomous Weapons Detection Based on Improved YOLO v4"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Hongwei Ding, Mingliang Duan, Yuanyuan Pu, Zhiju Yang, Haiyan Li"
+  authors_zh_html: "<strong>王冠博</strong>, Hongwei Ding, Mingliang Duan, Yuanyuan Pu, Zhiju Yang, Haiyan Li"
+  venue: "Digital Signal Processing"
+  year: "2023"
+  volume_issue_pages: "132: 103790"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "69"
+  first_affiliation: "To be verified"
+  contribution_en: "Proposed the core method, designed the network architecture, conducted experiments, and wrote the manuscript."
+  contribution_zh: "提出核心方法，设计网络架构，完成全部实验与论文撰写。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "Engineering Technology Zone 3", jcr_quartile: "To be verified", impact_factor: "3.2", five_year_impact_factor: "To be verified", esi_category: "Engineering", indexed: "To be verified", ccf: "To be verified", metric_year: "To be verified"}
+- id: trident-yolo
+  group: "First-author Publications"
+  selected: false
+  title: "Trident-YOLO: Improving the Precision and Speed of Mobile Device Object Detection"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Hongwei Ding, Baoli Li, R. Nie, Yifan Zhao"
+  authors_zh_html: "<strong>王冠博</strong>, Hongwei Ding, Baoli Li, R. Nie, Yifan Zhao"
+  venue: "IET Image Processing"
+  year: "2022"
+  volume_issue_pages: "16(1): 145–157"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "43"
+  first_affiliation: "To be verified"
+  contribution_en: "Developed a mobile object detection model balancing precision and speed."
+  contribution_zh: "提出兼顾移动端检测精度与速度的目标检测方法。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "Computer Science Zone 4", jcr_quartile: "Q3", impact_factor: "2.4", five_year_impact_factor: "2.2", esi_category: "Engineering", indexed: "EI", ccf: "C", metric_year: "To be verified"}
+- id: trc-yolo
+  group: "First-author Publications"
+  selected: false
+  title: "TRC-YOLO: A Real-Time Detection Method for Lightweight Targets Based on Mobile Devices"
+  authors_en_html: "<strong>Guanbo Wang</strong>, Hongwei Ding, Zhiju Yang, Baoli Li, Y. Wang, L. Bao"
+  authors_zh_html: "<strong>王冠博</strong>, Hongwei Ding, Zhiju Yang, Baoli Li, Y. Wang, L. Bao"
+  venue: "IET Computer Vision"
+  year: "2022"
+  volume_issue_pages: "16(2): 126–142"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "59"
+  first_affiliation: "To be verified"
+  contribution_en: "Developed a real-time lightweight target detection method for mobile devices."
+  contribution_zh: "提出面向移动设备的轻量化目标实时检测方法。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "Computer Science Zone 4", jcr_quartile: "Q4", impact_factor: "1.4", five_year_impact_factor: "1.4", esi_category: "Engineering", indexed: "EI", ccf: "C", metric_year: "To be verified"}
+- id: scale-aware-rgbt-tracking
+  group: "Co-authored Publications"
+  selected: false
+  title: "Scale-Aware Attention and Multi-Modal Prompt Learning With Fusion Adapter for RGBT Tracking"
+  authors_en_html: "Xiang Liu, Haiyan Li*, Victor Sheng, Yujun Ma, Xiaoguo Liang, <strong>Guanbo Wang</strong>"
+  authors_zh_html: "Xiang Liu, Haiyan Li*, Victor Sheng, Yujun Ma, Xiaoguo Liang, <strong>王冠博</strong>"
+  venue: "IEEE Transactions on Multimedia"
+  year: "2026"
+  volume_issue_pages: "28: 344–359"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "9"
+  first_affiliation: "To be verified"
+  contribution_en: "Co-authored a scale-aware and prompt-learning method for RGBT tracking."
+  contribution_zh: "合作完成面向 RGBT 跟踪的尺度感知与多模态提示学习研究。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 1", cas_top: "Yes", sci_upgrade_zone: "Computer Science Zone 1", jcr_quartile: "Q1", impact_factor: "9.9", five_year_impact_factor: "9.4", esi_category: "Computer Science", indexed: "EI", ccf: "B", metric_year: "To be verified"}
+- id: scdfuse
+  group: "Co-authored Publications"
+  selected: false
+  title: "SCDFuse: A Semantic Complementary Distillation Framework for Joint Infrared and Visible Image Fusion and Denoising"
+  authors_en_html: "Shidong Xie, Haiyan Li*, Yongsheng Zang, Jinde Cao, Dongming Zhou, Mingchuan Tan, Zhaisheng Ding, <strong>Guanbo Wang</strong>"
+  authors_zh_html: "Shidong Xie, Haiyan Li*, Yongsheng Zang, Jinde Cao, Dongming Zhou, Mingchuan Tan, Zhaisheng Ding, <strong>王冠博</strong>"
+  venue: "Knowledge-Based Systems"
+  year: "2025"
+  volume_issue_pages: "315: 113262"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "15"
+  first_affiliation: "To be verified"
+  contribution_en: "Co-authored a semantic complementary distillation framework for infrared-visible fusion and denoising."
+  contribution_zh: "合作完成红外与可见光图像融合及去噪的语义互补蒸馏框架研究。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 1", cas_top: "Yes", sci_upgrade_zone: "Computer Science Zone 1", jcr_quartile: "Q1", impact_factor: "8.0", five_year_impact_factor: "8.0", esi_category: "Computer Science", indexed: "EI", ccf: "C", metric_year: "To be verified"}
+- id: cross-modal-tracking
+  group: "Co-authored Publications"
+  selected: false
+  title: "Cross-Modal Deep Interaction and Modal-Aware Aggregation Network for Visible and Infrared Tracking"
+  authors_en_html: "Xiang Liu, Haiyan Li*, Victor Sheng, Yujun Ma, Xiaoguo Liang, <strong>Guanbo Wang</strong>"
+  authors_zh_html: "Xiang Liu, Haiyan Li*, Victor Sheng, Yujun Ma, Xiaoguo Liang, <strong>王冠博</strong>"
+  venue: "Applied Soft Computing"
+  year: "2025"
+  volume_issue_pages: "184: 113719"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "1"
+  first_affiliation: "To be verified"
+  contribution_en: "Co-authored a visible-infrared tracking method with cross-modal interaction and modal-aware aggregation."
+  contribution_zh: "合作完成可见光-红外跟踪中的跨模态交互与模态感知聚合研究。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 2", cas_top: "Yes", sci_upgrade_zone: "Computer Science Zone 2", jcr_quartile: "Q1", impact_factor: "7.8", five_year_impact_factor: "7.4", esi_category: "Computer Science", indexed: "To be verified", ccf: "To be verified", metric_year: "To be verified"}
+- id: dpsnet
+  group: "Co-authored Publications"
+  selected: false
+  title: "DPSNET: A Dual-Path Lightweight Network With Semantic-Guided Cross-Modal Feature Fusion for Multimodal Object Detection"
+  authors_en_html: "Yu Huang, Haiyan Li*, <strong>Guanbo Wang</strong>, Dan Xu, Jundong Yang, Geng Yue, Xiang Liu"
+  authors_zh_html: "Yu Huang, Haiyan Li*, <strong>王冠博</strong>, Dan Xu, Jundong Yang, Geng Yue, Xiang Liu"
+  venue: "IEEE Transactions on Instrumentation and Measurement"
+  year: "2025"
+  volume_issue_pages: "74: 5045817"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "2"
+  first_affiliation: "To be verified"
+  contribution_en: "Co-authored a lightweight cross-modal feature fusion network for multimodal object detection."
+  contribution_zh: "合作完成面向多模态目标检测的轻量化跨模态特征融合网络研究。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 2", cas_top: "To be verified", sci_upgrade_zone: "Engineering Technology Zone 2", jcr_quartile: "Q1", impact_factor: "7.0", five_year_impact_factor: "7.2", esi_category: "Engineering", indexed: "EI", ccf: "To be verified", metric_year: "To be verified"}
+- id: non-motorized-d-yolo
+  group: "Co-authored Publications"
+  selected: false
+  title: "Real-Time Detection Algorithm for Non-Motorized Vehicles Based on D-YOLO Model"
+  authors_en_html: "Y. Li, H. Ding, Z. Yang, <strong>Guanbo Wang</strong>"
+  authors_zh_html: "Y. Li, H. Ding, Z. Yang, <strong>王冠博</strong>"
+  venue: "Multimedia Tools and Applications"
+  year: "2024"
+  volume_issue_pages: "83(22): 61673–61696"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "5"
+  first_affiliation: "To be verified"
+  contribution_en: "Co-authored a D-YOLO based real-time detector for non-motorized vehicles."
+  contribution_zh: "合作完成基于 D-YOLO 的非机动车实时检测研究。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "To be verified", jcr_quartile: "To be verified", impact_factor: "To be verified", five_year_impact_factor: "To be verified", esi_category: "Computer Science", indexed: "To be verified", ccf: "C", metric_year: "To be verified"}
+- id: multi-scale-contextual-transformer
+  group: "Other Publications"
+  selected: false
+  title: "Multi-Scale Enhanced Contextual Transformer Network for Forest Fire Detection"
+  authors_en_html: "C. Ding, H. Li, Y. Liu, B. He, X. Lang, <strong>Guanbo Wang</strong>"
+  authors_zh_html: "C. Ding, H. Li, Y. Liu, B. He, X. Lang, <strong>王冠博</strong>"
+  venue: "Digital Signal Processing"
+  year: "2025"
+  volume_issue_pages: "105850"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "1"
+  first_affiliation: "To be verified"
+  contribution_en: "Co-authored a contextual transformer network for forest fire detection."
+  contribution_zh: "合作完成面向森林火灾检测的上下文 Transformer 网络研究。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "Zone 3", cas_top: "To be verified", sci_upgrade_zone: "Engineering Technology Zone 3", jcr_quartile: "Q2", impact_factor: "3.4", five_year_impact_factor: "3.2", esi_category: "Engineering", indexed: "To be verified", ccf: "To be verified", metric_year: "To be verified"}
+- id: uc-mamba
+  group: "Other Publications"
+  selected: false
+  title: "UC-Mamba: Adaptive Cross-Level Fusion Network With 2D-Selective Foveal Scanning and Channel-Gated Linear Unit for Ulcerative Colitis Evaluation"
+  authors_en_html: "X. Shi, X. Mao, S. Ye, S. Lin, <strong>Guanbo Wang</strong>, W. Li"
+  authors_zh_html: "X. Shi, X. Mao, S. Ye, S. Lin, <strong>王冠博</strong>, W. Li"
+  venue: "To be verified"
+  year: "2025"
+  volume_issue_pages: "To be verified"
+  role_en: "Co-author"
+  role_zh: "合作作者"
+  citation_count_from_scholar_screenshot: "To be verified"
+  first_affiliation: "To be verified"
+  contribution_en: "Medical image evaluation publication; venue and metrics require verification."
+  contribution_zh: "医学图像评估相关论文，期刊和指标仍待核验。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "To be verified", jcr_quartile: "To be verified", impact_factor: "To be verified", five_year_impact_factor: "To be verified", esi_category: "To be verified", indexed: "To be verified", ccf: "To be verified", metric_year: "To be verified"}
+- id: flame-yolov4-tiny
+  group: "Chinese Publications"
+  selected: false
+  title: "改进 YOLO v4-tiny 的火焰实时检测"
+  authors_en_html: "<strong>Wang Guanbo</strong>, Zhao Yifan, Li Bo, Yang Jundong, Ding Hongwei"
+  authors_zh_html: "<strong>王冠博</strong>, 赵一帆, 李波, 杨俊东, 丁洪伟"
+  venue: "计算机工程与科学"
+  year: "2022"
+  volume_issue_pages: "44(12): 2196"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "1"
+  first_affiliation: "To be verified"
+  contribution_en: "A Chinese article on improved YOLO v4-tiny for real-time flame detection."
+  contribution_zh: "基于改进 YOLO v4-tiny 的火焰实时检测中文论文。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "To be verified", jcr_quartile: "To be verified", impact_factor: "To be verified", five_year_impact_factor: "To be verified", esi_category: "To be verified", indexed: "To be verified", ccf: "To be verified", metric_year: "To be verified"}
+- id: improved-yolov4-flame
+  group: "Chinese Publications"
+  selected: false
+  title: "改进 YOLO v4 的火焰图像实时检测"
+  authors_en_html: "<strong>Wang Guanbo</strong>, Yang Jundong, Li Bo, Bao Liqi, Ding Hongwei"
+  authors_zh_html: "<strong>王冠博</strong>, 杨俊东, 李波, 保利其, 丁洪伟"
+  venue: "计算机工程与设计"
+  year: "2022"
+  volume_issue_pages: "43(05): 1358–1365"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "To be verified"
+  first_affiliation: "To be verified"
+  contribution_en: "A Chinese article on real-time flame image detection with improved YOLOv4."
+  contribution_zh: "基于改进 YOLOv4 的火焰图像实时检测中文论文。"
+  links: {doi: "https://doi.org/10.16208/j.issn1000-7024.2022.05.021", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "To be verified", jcr_quartile: "To be verified", impact_factor: "To be verified", five_year_impact_factor: "To be verified", esi_category: "To be verified", indexed: "To be verified", ccf: "T3", metric_year: "To be verified"}
+- id: intelligent-car
+  group: "Chinese Publications"
+  selected: false
+  title: "循迹避障智能小车的实验设计"
+  authors_en_html: "<strong>Wang Guanbo</strong>, Zhao Yifan, Guo Jia, Yang Jundong, Ding Hongwei"
+  authors_zh_html: "<strong>王冠博</strong>, 赵一帆, 郭嘉, 杨俊东, 丁洪伟"
+  venue: "实验科学与技术"
+  year: "2021"
+  volume_issue_pages: "To be verified"
+  role_en: "First author"
+  role_zh: "第一作者"
+  citation_count_from_scholar_screenshot: "To be verified"
+  first_affiliation: "To be verified"
+  contribution_en: "A Chinese article on tracking and obstacle avoidance intelligent car experiments."
+  contribution_zh: "循迹避障智能小车的实验设计中文论文。"
+  links: {doi: "", publisher: "", pdf: "", code: "", dataset: "", project: ""}
+  metrics: {cas_zone: "To be verified", cas_top: "To be verified", sci_upgrade_zone: "To be verified", jcr_quartile: "To be verified", impact_factor: "To be verified", five_year_impact_factor: "To be verified", esi_category: "To be verified", indexed: "To be verified", ccf: "To be verified", metric_year: "To be verified"}

@@ -1,0 +1,34 @@
+{% assign pub = include.pub %}
+{% assign lang = include.lang | default: 'en' %}
+<article class="publication-card">
+  <h3 class="pub-title">{{ pub.title }}</h3>
+  <p class="pub-authors">{% if lang == 'zh' %}{{ pub.authors_zh_html }}{% else %}{{ pub.authors_en_html }}{% endif %}</p>
+  <p class="pub-venue">{{ pub.venue }}{% if pub.volume_issue_pages and pub.volume_issue_pages != '' %}, {{ pub.volume_issue_pages }}{% endif %}. {{ pub.year }}.</p>
+  <p class="pub-meta">
+    <span>{% if lang == 'zh' %}{{ pub.role_zh }}{% else %}{{ pub.role_en }}{% endif %}</span>
+    <span>{% if lang == 'zh' %}截图引用：{% else %}Citations from screenshot: {% endif %}{{ pub.citation_count_from_scholar_screenshot }}</span>
+    <span>{% if lang == 'zh' %}第一单位：{% else %}First affiliation: {% endif %}{{ pub.first_affiliation }}</span>
+  </p>
+  <p>{% if lang == 'zh' %}{{ pub.contribution_zh }}{% else %}{{ pub.contribution_en }}{% endif %}</p>
+  <div class="metric-row">
+    <span class="metric-badge">CAS {{ pub.metrics.cas_zone }}</span>
+    <span class="metric-badge">TOP {{ pub.metrics.cas_top }}</span>
+    <span class="metric-badge">{{ pub.metrics.sci_upgrade_zone }}</span>
+    <span class="metric-badge">JCR {{ pub.metrics.jcr_quartile }}</span>
+    <span class="metric-badge">IF {{ pub.metrics.impact_factor }}</span>
+    <span class="metric-badge">5-Year IF {{ pub.metrics.five_year_impact_factor }}</span>
+    <span class="metric-badge">ESI {{ pub.metrics.esi_category }}</span>
+    <span class="metric-badge">{{ pub.metrics.indexed }}</span>
+    <span class="metric-badge">CCF {{ pub.metrics.ccf }}</span>
+  </div>
+  <div class="pub-links">
+    {% if pub.links.doi and pub.links.doi != '' %}<a class="button-link" href="{{ pub.links.doi }}">DOI</a>{% endif %}
+    {% if pub.links.publisher and pub.links.publisher != '' %}<a class="button-link" href="{{ pub.links.publisher }}">Publisher</a>{% endif %}
+    {% if pub.links.pdf and pub.links.pdf != '' %}<a class="button-link" href="{{ pub.links.pdf }}">PDF</a>{% endif %}
+    {% if pub.links.code and pub.links.code != '' %}<a class="button-link" href="{{ pub.links.code }}">Code</a>{% endif %}
+    {% if pub.links.dataset and pub.links.dataset != '' %}<a class="button-link" href="{{ pub.links.dataset }}">Dataset</a>{% endif %}
+    {% if pub.links.project and pub.links.project != '' %}<a class="button-link" href="{{ pub.links.project }}">Project</a>{% endif %}
+    <a class="button-link" href="https://scholar.google.com/scholar?q={{ pub.title | uri_escape }}">{% if lang == 'zh' %}学术搜索{% else %}Google Scholar{% endif %}</a>
+  </div>
+  <p class="metric-note">{% if lang == 'zh' %}{{ site.data.journal_metrics.verification_note_zh }}{% else %}{{ site.data.journal_metrics.verification_note_en }}{% endif %}</p>
+</article>

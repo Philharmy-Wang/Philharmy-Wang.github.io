@@ -3,30 +3,57 @@ layout: page
 permalink: /zh/awards/
 title: 奖励荣誉
 lang: zh
-description: 王冠博的奖励与荣誉。
+description: 王冠博的人才计划、奖励荣誉与竞赛奖项。
 ---
 
-## 奖学金与荣誉
+<p class="section-note">以下奖励荣誉来自主数据整理。除非明确公开发布，否则不展示证书图片或证书文件。</p>
 
-- 国家研究生奖学金，2021。
-- 博士研究生国家奖学金，2024。
-- 2019-2020学年研究生学业奖学金三等奖。
-- 2020-2021学年研究生学业奖学金三等奖。
-- 2021-2022学年研究生学业奖学金一等奖。
-- 2022-2023学年研究生学业奖学金二等奖。
-- Open Science Annual Author，2022。
-- 中国知网学术精要数据库高影响力论文。
+## 人才计划与项目资助
 
-## 竞赛
+<div class="project-list">
+{% for item in site.data.awards.talent_grants %}
+  <article class="project-card">
+    <h2>{{ item.title_zh }}</h2>
+    <p class="pub-meta"><span>{{ item.year }}</span><span>{{ item.role_zh }}</span></p>
+  </article>
+{% endfor %}
+</div>
 
-- 华为杯中国研究生数学建模竞赛三等奖，2019。
-- Mathematical Contest in Modeling Honorable Mention，2020。
-- 中国研究生电子设计竞赛商业计划书初赛三等奖，2021。
-- Mathematical Contest in Modeling Honorable Mention，2021。
-- 数维杯大学生数学建模竞赛二等奖，2021。
-- 数维杯大学生数学建模竞赛三等奖，2021。
-- 华为杯中国研究生数学建模竞赛二等奖，2022。
-- 互联网+创新创业竞赛校级铜奖，2022。
-- 互联网+创新创业竞赛校级铜奖，2023。
-- 数维杯数学建模竞赛一等奖，2023。
-- 华为杯中国研究生数学建模竞赛二等奖，2023。
+## 学术荣誉
+
+<div class="project-list compact-list">
+{% for item in site.data.awards.academic_honors %}
+  <article class="project-card">
+    <h2>{{ item.title_zh }}</h2>
+    <p class="pub-meta"><span>{{ item.year }}</span></p>
+  </article>
+{% endfor %}
+</div>
+
+## 竞赛奖励
+
+<div class="project-list">
+{% for item in site.data.awards.competitions %}
+  <article class="project-card">
+    <h2>{{ item.title_zh }}</h2>
+    {% if item.project_zh %}<p><strong>{{ item.project_zh }}</strong></p>{% endif %}
+    <p class="pub-meta">
+      <span>{{ item.year }}</span>
+      {% if item.role_zh %}<span>{{ item.role_zh }}</span>{% endif %}
+      {% if item.certificate_no %}<span>证书编号：{{ item.certificate_no }}</span>{% endif %}
+    </p>
+    {% if item.issuer_zh %}<p class="pub-venue">{{ item.issuer_zh }}{% if item.issued_date_zh %}，{{ item.issued_date_zh }}{% endif %}</p>{% endif %}
+  </article>
+{% endfor %}
+</div>
+
+## 证书
+
+<div class="project-list compact-list">
+{% for item in site.data.awards.certificates %}
+  <article class="project-card">
+    <h2>{{ item.title_zh }}</h2>
+    <p class="pub-meta"><span>{{ item.year }}</span></p>
+  </article>
+{% endfor %}
+</div>
